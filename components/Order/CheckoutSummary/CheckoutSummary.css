@@ -1,0 +1,33 @@
+.CheckoutSummary {
+    text-align: center;
+    width: 80%;
+    margin: auto
+}
+
+@media (min-width: 600px) {
+    .CheckoutSummary {
+        width: 500px
+    }
+}
+.Yes {
+    background-color: transparent;
+    border: none;
+    color:lawngreen;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.No {
+    background-color: transparent;
+    border: none;
+    color:orangered;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
